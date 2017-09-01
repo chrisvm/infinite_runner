@@ -30,7 +30,6 @@ namespace Map {
 		public Sprite LeftPlatformTile;
 		public Sprite MiddlePlatformTile;
 		public Sprite RightPlatformTile;
-		public Sprite EmptyTile;
 				
 		private uint[] mapRepresentation = {
 			0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
