@@ -2,7 +2,6 @@
 <map version="1.0" tiledversion="1.0.3" orientation="orthogonal" renderorder="right-down" width="30" height="30" tilewidth="128" tileheight="128" nextobjectid="3">
  <properties>
   <property name="EndPoints" value="&quot;up&quot;, &quot;down&quot;"/>
-  <property name="unity:tag" value="Collision"/>
  </properties>
  <tileset firstgid="1" source="complete_hi_res.tsx"/>
  <layer name="Platforms" width="30" height="30">

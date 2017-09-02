@@ -14,6 +14,15 @@ class CustomImporterAddComponent : Tiled2Unity.ICustomTiledImporter
 
 	public void CustomizePrefab(GameObject prefab)
 	{
-		// Do nothing
+		// add rigid body to Collision child
+		var objs = prefab.GetComponentsInChildren<Transform>();
+		foreach (var trans in objs) {
+			if (trans.gameObject.name != "Collision") {
+				continue;
+			}
+			var rigidbody2D = trans.gameObject.AddComponent<Rigidbody2D>();
+			rigidbody2D.bodyType = RigidbodyType2D.Static;
+			break;
+		}
 	}
 }

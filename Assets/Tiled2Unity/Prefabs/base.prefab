@@ -20,7 +20,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4705100824350000}
   - component: {fileID: 114115378585250616}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Platforms
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -38,7 +38,7 @@ GameObject:
   - component: {fileID: 33980773478437636}
   - component: {fileID: 23584843931549276}
   - component: {fileID: 114952113593145560}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: tilesheet_complete_2X
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -83,7 +83,8 @@ GameObject:
   - component: {fileID: 68835787941887602}
   - component: {fileID: 68288432508847020}
   - component: {fileID: 68852309204965872}
-  m_Layer: 0
+  - component: {fileID: 50804864827082460}
+  m_Layer: 8
   m_Name: Collision
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -100,7 +101,7 @@ GameObject:
   - component: {fileID: 4874551663200278}
   - component: {fileID: 114607890139435996}
   - component: {fileID: 114776711159349012}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -201,6 +202,26 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1749475456016378}
   m_Mesh: {fileID: 4300000, guid: 5948f4b3d89639541a2038339690a44d, type: 3}
+--- !u!50 &50804864827082460
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1887874972730560}
+  m_BodyType: 2
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!68 &68043894026791916
 EdgeCollider2D:
   m_ObjectHideFlags: 1

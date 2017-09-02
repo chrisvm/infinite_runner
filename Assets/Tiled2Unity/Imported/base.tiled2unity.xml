@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <!--Tiled2Unity generated xml data-->
 <!--Do not modify by hand-->
-<!--Last exported: 9/1/2017 1:24:44 AM-->
+<!--Last exported: 9/1/2017 3:31:02 PM-->
 <Tiled2Unity version="1.0.12.4">
   <AssignMaterial mesh="base_mesh_0001" material="tilesheet_complete_2X" />
-  <Prefab name="base" orientation="Orthogonal" staggerAxis="Y" staggerIndex="Odd" hexSideLength="0" numLayers="1" numTilesWide="30" numTilesHigh="30" tileWidth="128" tileHeight="128" exportScale="0.0078125" mapWidthInPixels="3840" mapHeightInPixels="3840" backgroundColor="#808080" tag="Collision">
+  <Prefab name="base" orientation="Orthogonal" staggerAxis="Y" staggerIndex="Odd" hexSideLength="0" numLayers="1" numTilesWide="30" numTilesHigh="30" tileWidth="128" tileHeight="128" exportScale="0.0078125" mapWidthInPixels="3840" mapHeightInPixels="3840" backgroundColor="#808080">
     <Property name="EndPoints" value="&quot;up&quot;, &quot;down&quot;" />
     <GameObject name="Platforms" x="0" y="0" z="0">
       <TileLayer offsetX="0" offsetY="0" />
