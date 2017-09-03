@@ -9,5 +9,8 @@ EditorBuildSettings:
     path: Assets/Menu.unity
     guid: f41ada4ab172b0742affff0e9c50141e
   - enabled: 1
-    path: Assets/MainScene.unity
+    path: Assets/MapTestScene.unity
     guid: bf842db928ea446429298ff01c90da0a
+  - enabled: 1
+    path: Assets/GameOver.unity
+    guid: f9fd568dc9380ef4e96e0f606610824e

@@ -21,9 +21,9 @@ public class PlayerMovement : MonoBehaviour
 	}
 	
 	void FixedUpdate () {
-        var horizontalInput = Input.GetAxis("Horizontal");
+        var horizontalInput = 1; //Input.GetAxis("Horizontal");
 		var jumpInput = Input.GetAxis("Jump");
-		var absHorizontalInput = Math.Abs(horizontalInput);
+      var absHorizontalInput = Math.Abs(horizontalInput);
 		
 		// check feet collider for collision
 		var inGround = _feetCollider.IsTouchingLayers();
@@ -35,7 +35,7 @@ public class PlayerMovement : MonoBehaviour
 		
 		// change some values while on air
 		if (!inGround) {
-			horizontalInput *= 0.7f;
+		//	horizontalInput *= 0.7f;
 		}
 		
 		if (absHorizontalInput > FloatTolerance) {
@@ -56,11 +56,11 @@ public class PlayerMovement : MonoBehaviour
 			// set stopping animation
 			Animator.SetBool("IsMoving", false);
 			
-			if (inGround) {
-				// brake while touching ground
-				_vectorInstance.x = -1 * RigidBody.velocity.x * Math.Abs(RigidBody.velocity.x) * 1.1f;
-				RigidBody.AddForce(_vectorInstance);
-			}
+			//if (inGround) {
+			//	// brake while touching ground
+			//	_vectorInstance.x = -1 * RigidBody.velocity.x * Math.Abs(RigidBody.velocity.x) * 1.1f;
+			//	RigidBody.AddForce(_vectorInstance);
+			//}
 		}
 
 		if (jumpInput > FloatTolerance && inGround) {
